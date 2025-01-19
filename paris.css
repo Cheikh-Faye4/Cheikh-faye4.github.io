@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('images/pexels-pixabay-161901.jpg'); 
+    background-size: cover;  
+    background-position: center center; 
+    background-attachment: fixed;  
+}
+
+header {
+    background-color: rgba(42, 42, 42, 0.7); 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.sites {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.site {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.site img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description {
+    padding: 20px;
+    width: 60%;
+}
+
+h2 {
+    color: #ff6347; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: #fff;
+    margin-top: 40px;
+}
+a {
+    color: #f4f4f4;
+}
+
